@@ -12,9 +12,9 @@ RUN npm install
 COPY . .
 
 #listen to same port as express
-ENV PORT=8080
+ENV PORT=3000
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ["npm", "start"]
 
