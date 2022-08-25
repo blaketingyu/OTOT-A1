@@ -11,12 +11,8 @@ RUN npm install
 #copy over src codes
 COPY . .
 
-#listen to same port as express
-ENV PORT=3000
-
 EXPOSE 3000
 
 CMD ["npm", "start"]
-
 
 
